@@ -24,6 +24,7 @@ jobs:
           mkdir -p ~/.aptly 
           mkdir -p ./main/.aptly
           sudo mount --bind ./main/.aptly ~/.aptly 
+          ln ~/.aptly.conf ./main/.aptly.conf
 
       - name: create repo
         run: aptly repo create -distribution=deb -component=main apt-toki || true
@@ -34,10 +35,18 @@ jobs:
           repository: xytoki/appnode-deb
           ref: dist
           path: deb-appnode
+          
+      - name: clone openresty-xy
+        uses: actions/checkout@v3
+        with:
+          repository: xytoki/openresty-packaging
+          ref: dist
+          path: deb-openresty
       
       - name: add deb to repo
         run: |
           aptly repo add apt-toki deb-appnode/*.deb
+          aptly repo add apt-toki deb-openresty/*.deb
           aptly repo show -with-packages apt-toki
           
       - name: push back
