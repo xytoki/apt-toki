@@ -21,9 +21,7 @@ jobs:
           echo deb http://repo.aptly.info/ squeeze main | sudo tee /etc/apt/sources.list.d/aptly.list
           sudo apt-get update
           sudo apt-get install aptly
-          mkdir -p ~/.aptly 
-          mkdir -p ./main/.aptly
-          sudo mount --bind ./main/.aptly ~/.aptly 
+          mv ./main/.aptly ~/
           ln ./main/.aptly.conf ~/.aptly.conf
 
       - name: create repo
@@ -57,12 +55,12 @@ jobs:
           
       - name: publish repo
         run: |
-          mkdir -p ~/dist
-          sudo mount --bind ./dist ~/dist
+          mv ./dist ~/
           aptly publish repo -skip-signing apt-toki filesystem:dist:
           
       - name: push dist
         run: |
+          mv ~/dist ./
           cd dist
           git config user.name github-actions
           git config user.email github-actions@github.com
@@ -72,6 +70,7 @@ jobs:
 
       - name: push main
         run: |
+          mv ~/.aptly ./main/
           cd main
           git config user.name github-actions
           git config user.email github-actions@github.com
