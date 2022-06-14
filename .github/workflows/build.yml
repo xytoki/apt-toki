@@ -54,11 +54,19 @@ jobs:
           ref: dist
           path: dist  
           
+      - name: Import GPG key
+        id: import_gpg
+        uses: crazy-max/ghaction-import-gpg@v5
+        with:
+          gpg_private_key: ${{ secrets.GPG_PKEY }}
+          passphrase: ${{ secrets.GPG_PASS }}
+          fingerprint: "88393D12E76E3CB390DABE28F6E8FB9E49D05A80"
+          
       - name: publish repo
         run: |
           mkdir -p /tmp/dist
           sudo mount --bind ./dist /tmp/dist
-          aptly publish repo -skip-signing apt-toki filesystem:dist:
+          aptly publish repo -gpg-key="88393D12E76E3CB390DABE28F6E8FB9E49D05A80" -passphrase="${{ secrets.GPG_PASS }}" apt-toki filesystem:dist:
           
       - name: push dist
         run: |
@@ -68,6 +76,7 @@ jobs:
           git add .
           git diff-index --quiet HEAD || git commit -m "generated"
           git push
+          
       - name: push main
         run: |
           cd main
