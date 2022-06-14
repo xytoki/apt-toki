@@ -24,15 +24,9 @@ jobs:
           mkdir -p ~/.aptly 
           mkdir -p ./main/.aptly
           sudo mount --bind ./main/.aptly ~/.aptly 
-          
-      - name: aptly db Folder
-        uses: actions/cache@v3.0.4
-        with:
-          path: ~/.aptly
-          key: aptly
 
       - name: create repo
-        run: aptly repo create -distribution=deb -component=main apt-toki
+        run: aptly repo create -distribution=deb -component=main apt-toki || true
         
       - name: clone appnode-deb
         uses: actions/checkout@v3
