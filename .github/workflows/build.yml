@@ -49,7 +49,27 @@ jobs:
           aptly repo add apt-toki deb-openresty/*.deb
           aptly repo show -with-packages apt-toki
           
-      - name: push back
+      - name: Checkout dist
+        uses: actions/checkout@v3
+        with:
+          ref: dist
+          path: dist  
+          
+      - name: publish repo
+        run: |
+          sudo mount --bind ./dist ~/dist
+          aptly publish apt-toki dist -skip-signing
+          
+      - name: push dist
+        run: |
+          cd dist
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git diff-index --quiet HEAD || git commit -m "generated"
+          git push
+
+      - name: push main
         run: |
           cd main
           git config user.name github-actions
