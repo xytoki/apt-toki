@@ -1,0 +1,1646 @@
+Package: appnode-agent
+Priority: extra
+Section: alien
+Installed-Size: 46498
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.10.13-2
+Depends: libc6 (>= 2.14), libmagic1 (>= 5.12)
+Filename: pool/main/a/appnode-agent/appnode-agent_1.10.13-2_amd64.deb
+Size: 15261440
+MD5sum: c151d2baeb7882d987e1b8e012e3c5bb
+SHA1: a047e4e228b13aaf1219a88f3575e163245af2d6
+SHA256: a2dbf6568651083dca6724a5d30db4c618ac7ff95dadfdcef14575078a02ad19
+SHA512: 622688efd07c0417a4869d36426b8abfd06ef18c20d781268824ea9037ad79ac1f19280f26630e3385fdc22e4a5fc4252db181600a502cd6d771b6de3be0b249
+Description: AppNode Agent
+ AppNode Agent.
+ .
+ Built with:
+ go version go1.10 linux/amd64
+ .
+ Libs:
+ - lzma                        release
+ - gc                          2017021401
+ - ntp                         2017022301
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - pty                         2017021401
+ - filevercmp                  2017021401
+ - ext2attr                    2017032801
+ - pcap                        2017030901
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - utils                       2021010401
+ - fastestmirror               2017021401
+ - repo                        2017102001
+ - pkgmgr                      2017101201
+ - cronconfig                  2017063001
+ - migrate                     2019072501
+ - common_apiclient            2017063001
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_notification_client   2018040301
+ - agent_backup_client         2018032601
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-agent-appmarket-db
+Priority: extra
+Section: alien
+Installed-Size: 704
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 20210305-2
+Filename: pool/main/a/appnode-agent-appmarket-db/appnode-agent-appmarket-db_20210305-2_amd64.deb
+Size: 227280
+MD5sum: 3934be7017ea8c2e9be637e5d83a4eda
+SHA1: a39dd6e2d9cb27ba711322936c8622e283ceefdf
+SHA256: 8816a8a554d69f714402aea5b7dcf594977f9650c0362d2ff9b07198068cb490
+SHA512: d24078bc8177b1582af216e3c77eeadb0e5ecffc1131e33a94443e3fc51d57abf5a95e2d441c36e3fe35a9878f2feca56f8110c3d74ce0a70b14c6ff92081f58
+Description: appnode appmarket database
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-agent-changelog-db
+Priority: extra
+Section: alien
+Installed-Size: 112
+Maintainer: root <root@fv-az58-169>
+Architecture: all
+Version: 20210305-2
+Filename: pool/main/a/appnode-agent-changelog-db/appnode-agent-changelog-db_20210305-2_all.deb
+Size: 27220
+MD5sum: 47e3f694e308d64e5c9497fad1955349
+SHA1: 02ba8688788ddd98f0b8454bd7b5b38f011c538c
+SHA256: 6d3997cf464a726f526011fc3be015ce7cb7e3e3965b4c90c131086efb3533e8
+SHA512: 40b007baaf64d8eddd6d034758b2912ac3389e503e9a0eca12f4cefa6ed9a025db3d191a49a1f6aad920d1f086e1cdb10fede69f1c54ed0c9462d75efd7a1e8d
+Description: appnode agent changelog database
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-agent-cli
+Priority: extra
+Section: alien
+Installed-Size: 8169
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.0-3
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-agent-cli/appnode-agent-cli_1.1.0-3_amd64.deb
+Size: 2357848
+MD5sum: 3d388515076e1d063ab86546de975605
+SHA1: 6fddd59291c38ff57f47cbee2f7cc3684a8c7399
+SHA256: f97d261adef8ec4a091dece5285ee6fe1031ea4488e8b18276c9690797cf285c
+SHA512: e4326fe406d17e8125cfbe1f2a615ff391d5e6f0ccb979f4bdd033b1aab34397572a4ab1605577b72c4d5b862a01eb6dc9b87ab57789c9a8a654a8506fc1471a
+Description: appnode agent command line tool
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-agent-release
+Priority: extra
+Section: alien
+Installed-Size: 16
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.2-2
+Filename: pool/main/a/appnode-agent-release/appnode-agent-release_1.2-2_amd64.deb
+Size: 3448
+MD5sum: 8ed754d3796dfd3caa4990572229f78b
+SHA1: ba84d0e07fc32034cbeef7865455f28b16e3d981
+SHA256: 0b36cccafe87648a1be1f388e96596026972e1554ed9cfec19a4163f3de2d638
+SHA512: 6da67a7214f898bbb1954cf6436cbed3874fc040f32cac898bb2a4b553c4ee7657afa72cba89c95acfcfa7cf4ec62491b4abf0193117cda9e02bd431fc9a8c80
+Description: appnode repository configuration
+ This package contains the AppNode repository GPG key
+ as well as configuration for yum.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-51sync
+Priority: extra
+Section: alien
+Installed-Size: 16804
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.5-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-51sync/appnode-app-51sync_1.1.5-2_amd64.deb
+Size: 4363396
+MD5sum: 9a1a806e1e729c6836f1fa018b6f1ecd
+SHA1: 7a06c6166f16c6b2d4f1b4ddd9751002084eb6e7
+SHA256: b901500f989b896d2b74cc01fc731673acc2cf83b5ba1d557792e1d50f6ddf6d
+SHA512: a4595725a5cc085f71dc1e7a0979c10a919d507aef548dc8394b5f74dfe57a05b9b786b419c56cafd3fd341e3277b6f36641fa0dc268c1cbdb3ba40129fd2b24
+Description: AppNode Application: 51sync
+ AppNode Application: 51sync.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ Libs:
+ - agent_notification_client   2017042201
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-cmdutils
+Priority: extra
+Section: alien
+Installed-Size: 9766
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.3-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-cmdutils/appnode-app-cmdutils_1.0.3-2_amd64.deb
+Size: 2832404
+MD5sum: e3bc42383127aef74f55a27c7f3dc65f
+SHA1: 9692723c849f8ac87dc8eb79b211928380f42e42
+SHA256: 04aeb60255ca07ef98c68f6fd87382548cf13c13bc46213819e76951e5c13496
+SHA512: 5ce3082c9fb22641086d2f46f76a763e2ad16df347a21be246ae77220400b281d28d3e183e0cbad59ddf14665525c71ebebcb97574f669ce99ac15e910402437
+Description: AppNode Application: cmdutils
+ AppNode Application: cmdutils.
+ .
+ Built with:
+ - go version go1.8.3 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017041801
+ - common_apiclient            2017050401
+ - common_appmgr               2017051201
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017052201
+ - agent_crond                 2017042501
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017042401
+ - agent_notification          2017042401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-dblimiter
+Priority: extra
+Section: alien
+Installed-Size: 10486
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.0-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-dblimiter/appnode-app-dblimiter_1.0.0-2_amd64.deb
+Size: 3050516
+MD5sum: c5a3b41ca5f07eac6bc7f19d48c7e721
+SHA1: 70f31fb85e71fe9f479150550bbb07a155780296
+SHA256: 7c75df698e4e73984884a8ecea4a444194ec45561d636ab979e3bc36ac9157a1
+SHA512: 38ba3ea4df4ae166943e17b26faa30666db8860563116d9ce312ce4f7c1287af0d6e9b51456c36572c113b8ada2b9e6b9d0d9655799c22884bc918da432c5244
+Description: AppNode Application: dblimiter
+ AppNode Application: dblimiter.
+ .
+ Built with:
+ - go version go1.9 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017081701
+ - common_apiclient            2017063001
+ - common_appmgr               2017063001
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ Libs:
+ - sysmond                     2017062301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-flowstat
+Priority: extra
+Section: alien
+Installed-Size: 10718
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.3-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-flowstat/appnode-app-flowstat_1.0.3-2_amd64.deb
+Size: 3158604
+MD5sum: a3b488a42c09ad41ea7df8b85321e0a7
+SHA1: 20a9a4575eed74dfb5b7cab5d7734789af93c1a7
+SHA256: ff4fc0f8e1e82459e6d5e57535d3f9f8921de331f1bf666a1df0d88e235c5070
+SHA512: 303ee152737b02cfd53356be12aa6178009c15fca82b3d6a4dcd80fa9b500fe4aa3bff9fbb69233bf9e3b3d95c04ff51926d822a1c0ec53974617732fd26dcd0
+Description: AppNode Application: flowstat
+ AppNode Application: flowstat.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ Libs:
+ - flowstat                     2020042201
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-frpc
+Priority: extra
+Section: alien
+Installed-Size: 11581
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.2-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-frpc/appnode-app-frpc_1.0.2-2_amd64.deb
+Size: 3959336
+MD5sum: 32bc9a9828e914f321b3398b78ece18b
+SHA1: dcbbf26adbe28f1328dec861c9b8b88d36527ce0
+SHA256: 19d49e434e415eafc39c0e2cb9d54d03cc7e7b7587a9751466bc40e3611f632d
+SHA512: a79d4055df49d9d447bcd42c82219c2a06e6058e68e5748cc3da83d2463d2b065f204039df0aed34bdcb57ff1a7d0d8003e451f0dee37792275a28887d82f4bc
+Description: AppNode Application: frpc
+ AppNode Application: frpc.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-frps
+Priority: extra
+Section: alien
+Installed-Size: 11509
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.2-4
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-frps/appnode-app-frps_1.0.2-4_amd64.deb
+Size: 3943804
+MD5sum: 8cb9f59e511c8cc1fe80321f7d16a1e2
+SHA1: 235e9fc4cc956dcab0a3847c621581d9fc0a328a
+SHA256: b0a4251bf2915e902dc0863984d5c655fa32c79f751c122d85812d8907d4bbc7
+SHA512: 3ada3e1aef4d167b4afdac05694787c139f279fd52624930f3f2f14221709957f980ae9f10b0442494a860fa824a456e2020c378b94991c3d5f9f754f1673014
+Description: AppNode Application: frps
+ AppNode Application: frps.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-gitea
+Priority: extra
+Section: alien
+Installed-Size: 10265
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.1-3
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-gitea/appnode-app-gitea_1.0.1-3_amd64.deb
+Size: 2990152
+MD5sum: 23d6f026a6bef96e51e7698719f58b58
+SHA1: d1559110bd49000aa7394171bc5fe572bd8b69af
+SHA256: 2ad2542f9c8aaa2986f73e784ee7d260a7de247573edd707bcd8ab27697475db
+SHA512: 4c42649b2eff5610f69f0f997c41b8c7863deae740033f22011bd0cdf0b1779dc07a39cf190305c0525c98a50a4e0f54025f1024294e7985cb4b98c2bfda565e
+Description: AppNode Application: gitea
+ AppNode Application: gitea.
+ .
+ Built with:
+ - go version go1.9 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-letsencrypt
+Priority: extra
+Section: alien
+Installed-Size: 21877
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.3.2-2
+Filename: pool/main/a/appnode-app-letsencrypt/appnode-app-letsencrypt_1.3.2-2_amd64.deb
+Size: 6138628
+MD5sum: b650f93bcbc32aeaa4a3192780c320db
+SHA1: 80a9a64201908b1bd6151da43c8fdf334ddb84be
+SHA256: 04f213172db2c73607f5b00e7e25e3872b920f430b9795b8c8a6951c8f56c111
+SHA512: e39dc573795cc31bccc83f618bfce3d1448963111b532dc28d5d7ef162a71f715844c0ea43f9bdc7d4dc6e8ba5bb7ea310f24e8c828cda697d3f90287aade2db
+Description: AppNode Application: letsencrypt
+ AppNode Application: letsencrypt.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ Libs:
+ - pcap                        2017030901
+ - acmev2                      2018042401
+ - agent_sslcertmgr                   2017031401
+ - agent_notification_client   2017042201
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-lsyncd
+Priority: extra
+Section: alien
+Installed-Size: 10164
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.1-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-lsyncd/appnode-app-lsyncd_1.0.1-2_amd64.deb
+Size: 3015616
+MD5sum: dd725081a3f21ab2b28a6a5b045efb48
+SHA1: 676638ebcf134e48ae754b271d9245ba7a29b50b
+SHA256: 747d1c4732f2b9620ed1f6b562602f7d98c51bbe8ebbf872493a11c2a09b06e9
+SHA512: 48621059a8ad0c066ea56af832d8a7ba3b717ac345ba8c74356c54495e2fb41a618b4a4d827c3bf91eb4a862745acc8a4ebf289263e8aec3398d51aabca5172e
+Description: AppNode Application: lsyncd
+ AppNode Application: lsyncd.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ Libs:
+ - lsyncdconfig                     2017073101
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-memcached
+Priority: extra
+Section: alien
+Installed-Size: 9922
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.1-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-memcached/appnode-app-memcached_1.1.1-2_amd64.deb
+Size: 2878336
+MD5sum: d86f6c6b2048c3373d06d4fccba02943
+SHA1: 6d45e064863e2fda21108633c9660245fff6c411
+SHA256: dfbb06f3a943febf626686da1b4c70271d1523bd287c152047696e827860e35b
+SHA512: bce9ce51879cef085c0fa12bcd7901784a9dba41d8e9833d2537e81e0ed7820da1f696d2bf52c6f635c25c599d506772c3f4b9581c9a55fc987d3b83b8f9bbd7
+Description: AppNode Application: memcached
+ AppNode Application: memcached.
+ .
+ Built with:
+ - go version go1.8.3 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017041801
+ - common_apiclient            2017063001
+ - common_appmgr               2017063001
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-mysqld
+Priority: extra
+Section: alien
+Installed-Size: 20951
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.3.4-3
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-mysqld/appnode-app-mysqld_1.3.4-3_amd64.deb
+Size: 6166660
+MD5sum: a7e83e98513bf59e675c7a5ad672404e
+SHA1: 0f2ca8cc8aad0d579578c9775f8869fdc0d0fb5f
+SHA256: 71389e69ef297d45b209db9df41be2044dd9ee418023e551551f614355eda983
+SHA512: 3fa1cd711e717b3b92551d4b458057ac4625fb54c2c082328aa3b575d563db8666f6b5d197008bf94d2a565880dd6d8cfc12a05fa607eef09985bcf23195db93
+Description: AppNode Application: mysqld
+ AppNode Application: mysqld.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ Libs:
+ - filevercmp                  2017021401
+ - agent_backupmgr             2018030801
+ - agent_notification_client   2017042201
+ - agent_backup_client         2017110901
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-netrelay
+Priority: extra
+Section: alien
+Installed-Size: 10662
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.4-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-netrelay/appnode-app-netrelay_1.0.4-2_amd64.deb
+Size: 3147344
+MD5sum: cfa0288a1fea6cf6b489b6bae941837e
+SHA1: 2fe9a76169aface4cbfb4c7779f5fe51609f7694
+SHA256: ce17fb01df17dcbc611856e9818a1767f95ed5b46467322e2d3b4fabfbf88ec7
+SHA512: 2384489a03e6bcd65f881387add32a2cb56dc8bd546a6fdd1518cf5b74f15cdf191cd34345f56485077d4c45b3e5c4169cd38262c0e7dcf4f34a150e6c2088c9
+Description: AppNode Application: netrelay
+ AppNode Application: netrelay.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ Libs:
+ - netrelay                     2017113001
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-nginx
+Priority: extra
+Section: alien
+Installed-Size: 13655
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.2.12-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-nginx/appnode-app-nginx_1.2.12-2_amd64.deb
+Size: 4701208
+MD5sum: 23aca6bda841de787ac47c3c68c5c6ca
+SHA1: bd67c8d0846de07fe9e9760444efc1f587e96829
+SHA256: 27004d6f8472b29aede55c3bc021bc9bbdea3979e28bf4b12e8eee119677e80a
+SHA512: e5cb43c306125c28eda03b68eb28b60450b6bbadd06ef8796fc9743f0aaf5b929b1bd100f631b2f9eb97dec00a85435996deb4247ceed0e0339b10ce03df27ef
+Description: AppNode Application: nginx
+ AppNode Application: nginx.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-nodejs
+Priority: extra
+Section: alien
+Installed-Size: 10105
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.2-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-nodejs/appnode-app-nodejs_1.0.2-2_amd64.deb
+Size: 3001416
+MD5sum: 15c51ed0f364f1923e02dfc3c0f948ca
+SHA1: c451afd5300e8d57d094770ec3fb96d6a4977569
+SHA256: 27423854f02beec19ec8242a8bddafcec57106de4dc0db5cdda0162cc69d1883
+SHA512: b7a385ef0acb2356b0830738125e9f12aa01405ad703acfad455d8807829e926ebea014fd8ce802afbbd66e9d990cb7396b9eb43d533e07be9d7d051653f191f
+Description: AppNode Application: nodejs
+ AppNode Application: nodejs.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-php
+Priority: extra
+Section: alien
+Installed-Size: 11126
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.8-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-php/appnode-app-php_1.1.8-2_amd64.deb
+Size: 3249868
+MD5sum: da19325a2ef454da952d546392ad4197
+SHA1: d7fc843cd034870f20da5821a3ff3653e130850d
+SHA256: baa2b9eec75c8175266906a7944d888b0318ef28e32dffb3ec8f07572e90f866
+SHA512: 6741b67858fa44a2b0f16395e97d072ca0eb82bf400663fc4afb45d5e9c09d68ac877a0c7fc61c11ea4f17441a8e376111cbeecb27a99ff809ab490950dc6014
+Description: AppNode Application: php
+ AppNode Application: php.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-pptpd
+Priority: extra
+Section: alien
+Installed-Size: 9817
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.0-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-pptpd/appnode-app-pptpd_1.1.0-2_amd64.deb
+Size: 2858008
+MD5sum: f31065e69c662b666e6b28e848f93a03
+SHA1: 0f7dec29b04b0874b2e739d196bf2605ea5bcebd
+SHA256: c6f701026eda3eb17156570bb023480eb2956253e36fd8679d7f0b5e3e80b435
+SHA512: ee46b2acc5e690f9dc40e873f6bf832ac07c7220d063992e6901404e9d8bf2c6e55056652431e21aaf036a5cb8617d0ce22b707ed020cc8036cca85f0fdbc2c7
+Description: AppNode Application: pptpd
+ AppNode Application: pptpd.
+ .
+ Built with:
+ - go version go1.8 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017031001
+ - envmgr                      2017030601
+ - common_apiclient            2017020901
+ - common_appmgr               2017031301
+ - common_taskmgr              2017031301
+ - agent_app                   2017030601
+ - agent_apiclient             2017020901
+ - agent_crond                 2016092601
+ - agent_service               2016090201
+ - agent_iptables              2017011901
+ - agent_scriptmgr             2016121701
+ - agent_notification          2017022001
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-procmgr
+Priority: extra
+Section: alien
+Installed-Size: 10354
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.2-2
+Filename: pool/main/a/appnode-app-procmgr/appnode-app-procmgr_1.1.2-2_amd64.deb
+Size: 3007764
+MD5sum: 02c0702a918fe9105fc6d9c4cadde72c
+SHA1: 4ffdb247a32d0aebcff190775463ea89bda24961
+SHA256: 056b5d147b5c3d098f4eceaa5e9858a341318864278a386c91215e7fcd795057
+SHA512: dd932c2269ad81ff1ce6b327c1ad2a066e5835e554341da87314575dade0a27a142d36bfaadf41d9f2f9a896ba227a1701f9843645c835a2b6a72936e201a956
+Description: AppNode Application: procmgr
+ AppNode Application: procmgr.
+ .
+ Built with:
+ - go version go1.9 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017081701
+ - common_apiclient            2017063001
+ - common_appmgr               2017063001
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ Libs:
+ - pcap                        2017030901
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-pureftpd
+Priority: extra
+Section: alien
+Installed-Size: 10279
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.3-3
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-pureftpd/appnode-app-pureftpd_1.1.3-3_amd64.deb
+Size: 2985968
+MD5sum: 1123d5fb6054c216190cc6fc70ea73d2
+SHA1: 3391bfec06ea079933552bfbd2494cd198edd9af
+SHA256: ff176478bdd68f389e9599094c8d81b89e2a750489e72dfc61367d8d7b786d71
+SHA512: 364a5275b10cc9346d59d556e1bfd4879be7c50f90a7140dd4bafdc1e67630310772a6577e110d0dd22dd56f86d174ac29d5d495413ba93881c6c26cea0fc9f7
+Description: AppNode Application: pureftpd
+ AppNode Application: pureftpd.
+ .
+ Built with:
+ - go version go1.9 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2017041001
+ - agent_app                   2017120901
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ Libs:
+ - pty                         2017021401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-redis
+Priority: extra
+Section: alien
+Installed-Size: 10294
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.2-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-redis/appnode-app-redis_1.1.2-2_amd64.deb
+Size: 2990028
+MD5sum: 72e156596a0ae22039a45495ed34f1ed
+SHA1: 65e60599556bb0e97d342d989b847e6ccc20ed3b
+SHA256: 24dc77810187ba969b350425025cd63c56a1f5b9db2f4725cf9f2651e4db50ba
+SHA512: 549c847a3295a9d4b2a36bd54ed30735b788c075115a81bdfca1207df6270bc20d26d7999877f0923a17202e73325aff2e65d1daece723a18932e0a6e19c92da
+Description: AppNode Application: redis
+ AppNode Application: redis.
+ .
+ Built with:
+ - go version go1.9 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017081701
+ - common_apiclient            2017063001
+ - common_appmgr               2017063001
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-rsync
+Priority: extra
+Section: alien
+Installed-Size: 18674
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.1-8
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-rsync/appnode-app-rsync_1.1.1-8_amd64.deb
+Size: 5502660
+MD5sum: 32b433bcb6d9b04b9384142d6b5a5ac3
+SHA1: a9d81652c7e61e5fb9db51bd8768ff677846cbb0
+SHA256: 4787859902c78ade2ad35868bf78c81ef65027f8e4c8ebd8adf897d32c4d4efb
+SHA512: ec3111a699c39210e4a199f20b119f6d76fb9719099afacd3af3f99312c9257dd19dc948e857408b7282911ac596b1e9d0ffa796fd0dfe3a366c6865ba22baee
+Description: AppNode Application: rsync
+ AppNode Application: rsync.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ Libs:
+ - cronconfig                  2017063001
+ - agent_notification_client   2017042201
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-rsyncd
+Priority: extra
+Section: alien
+Installed-Size: 10706
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.2-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-rsyncd/appnode-app-rsyncd_1.1.2-2_amd64.deb
+Size: 3158044
+MD5sum: 5dd2e227421bc81ac3a2a75360dcfe9e
+SHA1: 1028d2ab8a2e8c300904d06a38ad8e75c0717d64
+SHA256: f60cff5d6c4eb356a5fb7a3dffc8a8fe37945ec1770380b83bdb557f9273e74b
+SHA512: 7add4dc8abc82a33bd41223a1454a292d10c602594d7be82543c9759f69f42a95af7e3af8d2d49f8fb052f0c29c1acb04b9a8d030063c4eac31aeccb49ec901a
+Description: AppNode Application: rsyncd
+ AppNode Application: rsyncd.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-shadowsocks
+Priority: extra
+Section: alien
+Installed-Size: 9763
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.0-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-shadowsocks/appnode-app-shadowsocks_1.1.0-2_amd64.deb
+Size: 2844972
+MD5sum: 7d215bc5f992276cbfb19cdfbe8cf986
+SHA1: e8976ab76d37492223aa3af8b31404f94d6d0f21
+SHA256: ed392bf9d1a5b49a964259016ae49be422bb60f4ec03f39c910f4431d62b94d2
+SHA512: 7b69f020c2aab42ad030bcada02d556fa13e8c963fefc0d9e3885ddf9fcfe35b7824d398a5a16657498d402ab6e562b848f73a7709e4a892aa384caec436f1fe
+Description: AppNode Application: shadowsocks
+ AppNode Application: shadowsocks.
+ .
+ Built with:
+ - go version go1.8 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017031001
+ - envmgr                      2017030601
+ - common_apiclient            2017020901
+ - common_appmgr               2017031301
+ - common_taskmgr              2017031301
+ - agent_app                   2017030601
+ - agent_apiclient             2017020901
+ - agent_crond                 2016092601
+ - agent_service               2016090201
+ - agent_iptables              2017011901
+ - agent_scriptmgr             2016121701
+ - agent_notification          2017022001
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-sitemgr
+Priority: extra
+Section: alien
+Installed-Size: 69005
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.10.6-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-sitemgr/appnode-app-sitemgr_1.10.6-2_amd64.deb
+Size: 22212812
+MD5sum: f8e9e36781eb34ea5f622c4458c14ca4
+SHA1: 811c4c34785e1aa1b868b7dcf1c489823292f546
+SHA256: a12a6c7cd05a8273577c98c244222a2eb0b7ac6f267e063ba09441aa5c519105
+SHA512: 9f4ecbe9ab50fb2e306971fe9cbeee2d37a5427d56f762fdc0e6cdaab8dfc62b011e48b9b5119eee47c259dc6c30616183274d16b3a073d09b9f397e04b63036
+Description: AppNode Application: sitemgr
+ AppNode Application: sitemgr.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ Libs:
+ - filevercmp                  2017021401
+ - nginxconfig                 2018020901
+ - phpconfig                   2017080501
+ - mysqlconfig                 2017102501
+ - pureftpdconfig              2020041901
+ - agent_notification_client   2018040301
+ - agent_backupmgr             2018041001
+ - agent_backup_client         2018032601
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-smbd
+Priority: extra
+Section: alien
+Installed-Size: 10053
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.1-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-smbd/appnode-app-smbd_1.1.1-2_amd64.deb
+Size: 2910624
+MD5sum: f04c5282610f77178a86f3240324a2e0
+SHA1: bdb661347228476167826ee04d20529915ce8c9a
+SHA256: c9e2e8e2ebce5bd869051a09ae1c38406b9f4280ac5969f51bfff30d9e4c2905
+SHA512: 3e49bc2d851e21c1bb68fb93594e714cc78379cf7f8315543fab18b16a70badc9a7ae5326fa49a5863ec67b1ab3ccd3d0f4a99bb1b0bb66b2d1de031295b92e0
+Description: AppNode Application: smbd
+ AppNode Application: smbd.
+ .
+ Built with:
+ - go version go1.8.3 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017041801
+ - common_apiclient            2017063001
+ - common_appmgr               2017063001
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ Libs:
+ - pty                         2017021401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-speedtest
+Priority: extra
+Section: alien
+Installed-Size: 10676
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.1-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-speedtest/appnode-app-speedtest_1.0.1-2_amd64.deb
+Size: 3150380
+MD5sum: cefccc3e7139343c1d966dc618de38cc
+SHA1: b210bed25b7e7de81d79c3e11051c134bced624a
+SHA256: 4f8c43d0e655f88724506be1d94071a85a10922ec9ee77e9edbe3e6c7defa869
+SHA512: 36209983457c5b8d530426815df9bbfcebc61693de4a238450a79820e81c667f4455369403bcac30756ee5084635e82d2acaf580320a413d7101e0b25ab1cc1e
+Description: AppNode Application: speedtest
+ AppNode Application: speedtest.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-sshd
+Priority: extra
+Section: alien
+Installed-Size: 10146
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.5-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-sshd/appnode-app-sshd_1.1.5-2_amd64.deb
+Size: 3017084
+MD5sum: 43d79d4601e197e07da68ff37230a0c7
+SHA1: ae479fe8cf4fcbbf98f1eff9b3460c5d5c4a00e8
+SHA256: 60219a1b146fac4756d85fe5f98687eb0adf071b65440ae2c6e5ec82086e10e6
+SHA512: 0914d7d27288fea6ea70486661f53e8f6135d4290085169ef6264675c7bd27246b0cf3f8782c6f603a8da3795092357bed564e2c68f40edc87b57268f895bfab
+Description: AppNode Application: sshd
+ AppNode Application: sshd.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ Libs:
+ - pty                         2017021401
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-storage
+Priority: extra
+Section: alien
+Installed-Size: 10817
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.2.10-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-storage/appnode-app-storage_1.2.10-2_amd64.deb
+Size: 3177268
+MD5sum: fb2964daf70d04e3d2cd94c63bb4c491
+SHA1: 347970ad0cc4c466352b28102ff4318157f2d84d
+SHA256: 9ec3d0083ba56905d071b6ea0f2ffaf342c8cf224e708e433000306f0217b56f
+SHA512: 745dc51da544a57a3cdb66e10d3df1a9c6554da2131929345ab6450341713efa3a7f87b227b158b07cbf141c0f7b51de0dabb22009eb9ab9f0a0f4302aae15db
+Description: AppNode Application: storage
+ AppNode Application: storage.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-supervisord
+Priority: extra
+Section: alien
+Installed-Size: 11099
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.4-4
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-supervisord/appnode-app-supervisord_1.0.4-4_amd64.deb
+Size: 3270676
+MD5sum: 70f17c5963daec461caee3eed8f635ce
+SHA1: be51613d680df8175b957a7036466027386a5a08
+SHA256: 395a7471e6f5fa46cfc728d211c722f4b3e1247abd66a7d61411e377a1582bc1
+SHA512: 7c3c61c69b4401aff76ddeb2da96e65c6d6eaa7b3d4b284aefe6980c331d2b33125c1845500c5443a2b295074147e0330056d428a9307375b0b3cab5fb8c2e4e
+Description: AppNode Application: supervisord
+ AppNode Application: supervisord.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018040301
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-sysmonitor
+Priority: extra
+Section: alien
+Installed-Size: 10407
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.3.5-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-sysmonitor/appnode-app-sysmonitor_1.3.5-2_amd64.deb
+Size: 3059240
+MD5sum: 2fc9b91d2112793982e010fa02d47a4d
+SHA1: ec94083930a19a3e21fb05d0554af27b46ad12e1
+SHA256: 069d6e088d415b0abf81307fff9fca54214ac21535e2a55ae338a442635cc614
+SHA512: b9e20f1831a8d1ed8673e93d41dcd20f52d817ebf78ad51e1f4b641cf614e343fe7c70c801f4ef1be0bf71d6ee71d70410473c46a930ee0149ae65e8d9043919
+Description: AppNode Application: sysmonitor
+ AppNode Application: sysmonitor.
+ .
+ Built with:
+ - go version go1.10 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017111401
+ - license                     2017060701
+ - envmgr                      2017103101
+ - common_apiclient            2017063001
+ - common_appmgr               2017111501
+ - common_taskmgr              2018031301
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ Libs:
+ - sysmond                     2017111601
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-app-vdird
+Priority: extra
+Section: alien
+Installed-Size: 10301
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.0-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-app-vdird/appnode-app-vdird_1.0.0-2_amd64.deb
+Size: 2999292
+MD5sum: 450354b06ba6759d9c4d63d42308de60
+SHA1: c4a7a4a4f9931720074105b495814530288a5981
+SHA256: 00ed09956725b6a5963848594c8c5d5d1247fa122a78f66ba96f8276bc7c5a65
+SHA512: 31e54fe4b9580ffa192860d19a021e90dad116c82b1f15c76624351a78230a84cea448ceca27e050204d674e32a42dfb55f7f7539a92721e3531e6a0b793ef6e
+Description: AppNode Application: vdird
+ AppNode Application: vdird.
+ .
+ Built with:
+ - go version go1.9 linux/amd64
+ .
+ Common libs:
+ - gc                          2017021401
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - mac                         2017021401
+ - license                     2017060701
+ - envmgr                      2017081701
+ - common_apiclient            2017063001
+ - common_appmgr               2017063001
+ - common_taskmgr              2017041001
+ - agent_app                   2017060701
+ - agent_apiclient             2017062601
+ - agent_crond                 2017062601
+ - agent_service               2017042401
+ - agent_iptables              2017042501
+ - agent_scriptmgr             2017062601
+ - agent_notification          2017042401
+ .
+ Libs:
+ - sysmond                     2017061501
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter
+Priority: extra
+Section: alien
+Installed-Size: 52152
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.12.12-2
+Filename: pool/main/a/appnode-ccenter/appnode-ccenter_1.12.12-2_amd64.deb
+Size: 14719504
+MD5sum: 79df546157f2d00f3b975856f1fe4b70
+SHA1: afea12ece3be23b72f4a3b231cacf2a32077eb56
+SHA256: 44038470d7760275b0222ed4104309f8e9576df4d443c60ed01449a8ce1f356a
+SHA512: eb6853ea9fb73829c5f7b9d09cdfff9e18395c8ac43eb4a02384fa6b51870e6bc2208caa1ca74baabcc459974dc312c87022f7bd73e216f3a7ee2009bb9aa107
+Description: AppNode Control Center
+ AppNode Control Center.
+ .
+ Built with:
+ go version go1.10 linux/amd64
+ .
+ Libs:
+ - lzma                        release
+ - gc                          2017021401
+ - ntp                         2017022301
+ - path                        2017021401
+ - version                     2017021401
+ - crypto                      2017021401
+ - pty                         2017021401
+ - filevercmp                  2017021401
+ - mac                         2017111401
+ - license                     2018080101
+ - envmgr                      2018060401
+ - utils                       2021010401
+ - fastestmirror               2017021401
+ - repo                        2017102001
+ - pkgmgr                      2017101201
+ - cronconfig                  2017063001
+ - migrate                     2018121301
+ - common_apiclient            2017063001
+ - ccenter_app                 2017030201
+ - ccenter_apiclient           2017111501
+ - ccenter_notification_client 2017032001
+ - agent_app                   2017120901
+ - agent_apiclient             2018021001
+ - agent_crond                 2017062601
+ - agent_service               2018013101
+ - agent_iptables              2017102301
+ - agent_scriptmgr             2017081401
+ - agent_notification          2018020701
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-app-nodemgr-ssh-cli
+Priority: extra
+Section: alien
+Installed-Size: 5984
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.0-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-ccenter-app-nodemgr-ssh-cli/appnode-ccenter-app-nodemgr-ssh-cli_1.0.0-2_amd64.deb
+Size: 1835848
+MD5sum: e66c110368b21d790d3aace9beec7a85
+SHA1: 5e4c3d8f28faa04d6c007aaf672f5634acf9e27d
+SHA256: 05bd356cad92b4b5318d3bf3a589d9cdc6ddf598d6b3139c60e84a274a0c70fa
+SHA512: 024eea3ff7f26a1dd2d78beae89e36f6acba2f43f7068823824a6838e67ed803113932aea876819d5191fa74934db9c931a4c923aba48d624e64a5e8f716dc75
+Description: appnode control center ssh client command line tool
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-app-usermgr-user-cli
+Priority: extra
+Section: alien
+Installed-Size: 4953
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.0.0-2
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-ccenter-app-usermgr-user-cli/appnode-ccenter-app-usermgr-user-cli_1.0.0-2_amd64.deb
+Size: 1538636
+MD5sum: 2f4f434cf0f3ffd988f672838d8c66b1
+SHA1: 65f64d9a039518485934430340a808c249ab9474
+SHA256: df898e2baafaaa5317693897b41c7fc366dfdd305762ea84dc42644a42eaf80c
+SHA512: b355111beeb713d7db06ccb14c4295de95bda616dd85eebd1a313ca7e406487c382304fb48d71e23b79a068e8a47ed679b3180258d8fe575b68ef21c55050eb0
+Description: appnode control center user management command line tool
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-appmarket-db
+Priority: extra
+Section: alien
+Installed-Size: 160
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 20171223-2
+Filename: pool/main/a/appnode-ccenter-appmarket-db/appnode-ccenter-appmarket-db_20171223-2_amd64.deb
+Size: 27332
+MD5sum: e45c239337a95dad180e48c98a1b08fd
+SHA1: 57ad2d445fe34bc590297f88cb8b38175b4415bd
+SHA256: ad079ca40fb8c74adfd924c6875d6025a30643f611e896a67767d959767651ac
+SHA512: db796de8e28ca2c6bcc043e4f5c8c4b8c2816ff90bdd8a1d80ee880a43d6095e9b8eea5a4b2c7362581fcf131d6560b58b05b713872541b2efded75a10588db5
+Description: appnode appmarket database
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-changelog-db
+Priority: extra
+Section: alien
+Installed-Size: 52
+Maintainer: root <root@fv-az58-169>
+Architecture: all
+Version: 20210104-2
+Filename: pool/main/a/appnode-ccenter-changelog-db/appnode-ccenter-changelog-db_20210104-2_all.deb
+Size: 10760
+MD5sum: 730ab857c16e47109776706fa68b2004
+SHA1: dfeb519362b32680c974a11c2a5d3c7ad4f992d5
+SHA256: f3261eff118944b3ed2fc3977f89a9946129beb0655e9244b9c3c6266e576cc0
+SHA512: 52b3c65f7fd801258cc312f5cd820b624bd0840dc8d3522ed9ab15b15f72f5b452d48eedc464cb56f5e30312afd55165aec8c89ee0703ed4c3e31d4466e0f42f
+Description: appnode ccenter changelog database
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-cli
+Priority: extra
+Section: alien
+Installed-Size: 8169
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.0-3
+Depends: libc6 (>= 2.14)
+Filename: pool/main/a/appnode-ccenter-cli/appnode-ccenter-cli_1.1.0-3_amd64.deb
+Size: 2359136
+MD5sum: 702b56a39b5eaf46b2a3efcce3b8f6ca
+SHA1: 87cd41c82c7c3205fe463e3dc6b210087621ee80
+SHA256: 672ea71a2b3a977fe348cbfc1a3bee74ecc9cceab4296fe4fb596b472fe5b6cc
+SHA512: a5f2196ce95f71641cb4a9e6e7f6cd058cd29e3e1988239df7e43dd637e14b0f43ade4b556ebfe8fa3eaaedb4e3e6c5b48e0bb41cf1e1027e7a08e860ecf38fb
+Description: appnode control center command line tool
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-fake
+Priority: extra
+Section: alien
+Installed-Size: 10
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.12.1-2
+Filename: pool/main/a/appnode-ccenter-fake/appnode-ccenter-fake_1.12.1-2_amd64.deb
+Size: 1744
+MD5sum: 22c0956a8647342ef6c4aca33c764196
+SHA1: 8fdc03373af5426737c5339eb5ebb817bffba6cd
+SHA256: bf7e7ee9c2145e3bd70468068a6f50c3c5339ee89716dc45112163fedd05ec25
+SHA512: 12dcd577b41dcf067d002a27f29e293140c60bad98408f6f343d70e04fc5ea3d0dfb34206ac3845faec59dd41eb0dd2c0814409ecaf50f576a1ac535e05c5392
+Description: appnode control center fake
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-ccenter-release
+Priority: extra
+Section: alien
+Installed-Size: 16
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.2-2
+Filename: pool/main/a/appnode-ccenter-release/appnode-ccenter-release_1.2-2_amd64.deb
+Size: 3456
+MD5sum: 36a78ce339508b0b061fdbbb51c769d4
+SHA1: cdd05a1931b8287b8252e500ede26737db7d6fd0
+SHA256: 727157332dc45822fef52e4b107f7d08b680c37c9cb1f0a0f33e71e0546cf6fb
+SHA512: 6111a4948964b1ef4157d01e30f04920e3fb2c03a25a406d0e1d49f08febdc0e12dcca3ce0ab883bee69eab1fe2359fe1bedb9c90d9ca60ef846addb15a2e896
+Description: appnode repository configuration
+ This package contains the AppNode repository GPG key
+ as well as configuration for yum.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-cli
+Priority: extra
+Section: alien
+Installed-Size: 1204
+Maintainer: root <root@fv-az58-169>
+Architecture: amd64
+Version: 1.1.0-3
+Filename: pool/main/a/appnode-cli/appnode-cli_1.1.0-3_amd64.deb
+Size: 366676
+MD5sum: 200b18cf429db4e4d6ad805dc9c81ef8
+SHA1: b8c7e12499d166b709536169ceff45978e54f1ae
+SHA256: 2b5f1ff002f36da7d07f1c137d1afed0f4af01d02211d7ca09892c8c4bbd2673
+SHA512: f2aed2461b58e1a41a5a5ec0e111c8c9ef65c215b7d4bd20bf89b08dd2baafb60ea1949bd6d45693968125e8420999235894a3acbed7cf4e93f006acaf4120da
+Description: AppNode Command Line Tool
+ AppNode Command Line Tool
+ .
+ Built with:
+ - go version go1.8 linux/amd64
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: appnode-extras-release
+Priority: extra
+Section: alien
+Installed-Size: 16
+Maintainer: root <root@fv-az58-169>
+Architecture: all
+Version: 1.1-2
+Filename: pool/main/a/appnode-extras-release/appnode-extras-release_1.1-2_all.deb
+Size: 3436
+MD5sum: 97d99d6955d418812edb48de26795c1c
+SHA1: 5e5659227aa5493126b60ebc0ee6260e23e3129e
+SHA256: 99fa9757150f5b7e2a50e47385c1ff83aa1c76688061b108d15c240e3b0ea23a
+SHA512: 89215a397b2fc4e847bfbaa8aaf0e8cba41924bb0d59f639f237ec87c7f1d137efaab36086ddad67faacc8d506455c0ce455fe65d5b3e7988851e3d6c28867e3
+Description: appnode repository configuration
+ This package contains the AppNode repository GPG key
+ as well as configuration for yum.
+ .
+ (Converted from a rpm package by alien version 8.95.)
+
+Package: openresty-xy
+Priority: optional
+Section: httpd
+Installed-Size: 4760
+Maintainer: xyToki <xytoki@outlook.com>
+Architecture: amd64
+Source: openresty
+Version: 1.21.4.1-1~focal1
+Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.3), openresty-openssl111 (>= 1.1.1n), openresty-pcre (>= 8.45), openresty-zlib
+Filename: pool/main/o/openresty/openresty-xy_1.21.4.1-1~focal1_amd64.deb
+Size: 1371256
+MD5sum: b04bebde53c45f8e8544f9bac5d2df85
+SHA1: d9df57915e80927b96f85c9994f03d41c8f07fcf
+SHA256: 479a0a5fc9e5d7c13266bdde7a0e63ff9bbf29047833083afef40b3453a555e1
+SHA512: b1282cd82c0bb8c20ef6b03e8620967a2ee7bf73963cd0e7e531d4ea3572f84acf3208a447f09026ec2a15a08e59f48844cfbe0788a002af3215446f7d626deb
+Description: core server of OpenResty for production use
+ This package contains the core server for OpenResty. Built for production
+ uses.
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+ .
+ By taking advantage of various well-designed Nginx modules (most of which
+ are developed by the OpenResty team themselves), OpenResty effectively
+ turns the nginx server into a powerful web app server, in which the web
+ developers can use the Lua programming language to script various existing
+ nginx C modules and Lua modules and construct extremely high-performance
+ web applications that are capable to handle 10K ~ 1000K+ connections in
+ a single box.
+Homepage: https://openresty.org/
+

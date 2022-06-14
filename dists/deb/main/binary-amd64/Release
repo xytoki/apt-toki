@@ -1,0 +1,5 @@
+Origin: . deb
+Label: . deb
+Archive: deb
+Architecture: amd64
+Component: main
