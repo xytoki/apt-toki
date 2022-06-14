@@ -21,7 +21,8 @@ jobs:
           echo deb http://repo.aptly.info/ squeeze main | sudo tee /etc/apt/sources.list.d/aptly.list
           sudo apt-get update
           sudo apt-get install aptly
-          mkdir -p ./.aptly
+          mkdir -p ~/.aptly 
+          mkdir -p ./main/.aptly
           sudo mount --bind ./main/.aptly ~/.aptly 
           
       - name: aptly db Folder
