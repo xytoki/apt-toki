@@ -43,7 +43,7 @@ jobs:
       - name: add deb to repo
         run: |
           aptly repo add apt-toki deb-appnode/*.deb
-          aptly repo show -with-packages aptly-release
+          aptly repo show -with-packages apt-toki
           
       - name: push back
         run: |
