@@ -66,7 +66,7 @@ jobs:
         run: |
           mkdir -p /tmp/dist
           sudo mount --bind ./dist /tmp/dist
-          aptly publish repo -gpg-key="88393D12E76E3CB390DABE28F6E8FB9E49D05A80" -passphrase="${{ secrets.GPG_PASS }}" apt-toki filesystem:dist:
+          aptly publish update -gpg-key="88393D12E76E3CB390DABE28F6E8FB9E49D05A80" -passphrase="${{ secrets.GPG_PASS }}" apt-toki filesystem:dist: || aptly publish repo -gpg-key="88393D12E76E3CB390DABE28F6E8FB9E49D05A80" -passphrase="${{ secrets.GPG_PASS }}" apt-toki filesystem:dist:
           
       - name: push dist
         run: |
