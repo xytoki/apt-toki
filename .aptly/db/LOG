@@ -1,0 +1,32 @@
+=============== Jun 14, 2022 (UTC) ===============
+04:26:44.247487 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:44.275065 db@open opening
+04:26:44.276200 version@stat F·[] S·0B[] Sc·[]
+04:26:44.277668 db@janitor F·2 G·0
+04:26:44.277700 db@open done T·2.615702ms
+04:26:44.277823 db@close closing
+04:26:44.277865 db@close done T·40.1µs
+=============== Jun 14, 2022 (UTC) ===============
+04:26:54.081397 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:54.081506 version@stat F·[] S·0B[] Sc·[]
+04:26:54.081515 db@open opening
+04:26:54.081546 journal@recovery F·1
+04:26:54.082469 journal@recovery recovering @1
+04:26:54.084915 memdb@flush created L0@2 N·1 S·307B "L61..581,v1":"L61..581,v1"
+04:26:54.085218 version@stat F·[1] S·307B[307B] Sc·[0.25]
+04:26:54.086870 db@janitor F·3 G·0
+04:26:54.086894 db@open done T·5.372124ms
+04:26:55.609913 db@close closing
+04:26:55.609976 db@close done T·59.9µs
+=============== Jun 14, 2022 (UTC) ===============
+04:26:55.617703 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:26:55.617834 version@stat F·[1] S·307B[307B] Sc·[0.25]
+04:26:55.617843 db@open opening
+04:26:55.617876 journal@recovery F·1
+04:26:55.619539 journal@recovery recovering @3
+04:26:55.623443 memdb@flush created L0@5 N·226 S·50KiB "C00..deb,v173":"xFP..ce6,v220"
+04:26:55.623730 version@stat F·[2] S·50KiB[50KiB] Sc·[0.50]
+04:26:55.627461 db@janitor F·4 G·0
+04:26:55.627495 db@open done T·9.631842ms
+04:26:55.628529 db@close closing
+04:26:55.628853 db@close done T·320.801µs
