@@ -22,7 +22,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install aptly
           mkdir -p ./.aptly
-          ln -s ~/.aptly ./main/.aptly
+          sudo mount --bind ./main/.aptly ~/.aptly 
           
       - name: aptly db Folder
         uses: actions/cache@v3.0.4
