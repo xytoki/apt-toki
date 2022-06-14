@@ -59,7 +59,7 @@ jobs:
         run: |
           mkdir -p ~/dist
           sudo mount --bind ./dist ~/dist
-          aptly publish apt-toki dist -skip-signing
+          aptly publish repo apt-toki dist -skip-signing
           
       - name: push dist
         run: |
