@@ -24,7 +24,7 @@ jobs:
           mkdir -p ~/.aptly 
           mkdir -p ./main/.aptly
           sudo mount --bind ./main/.aptly ~/.aptly 
-          ln ~/.aptly.conf ./main/.aptly.conf
+          ln ./main/.aptly.conf ~/.aptly.conf
 
       - name: create repo
         run: aptly repo create -distribution=deb -component=main apt-toki || true
