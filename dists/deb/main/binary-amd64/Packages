@@ -1613,18 +1613,18 @@ Description: appnode repository configuration
 Package: openresty-xy
 Priority: optional
 Section: httpd
-Installed-Size: 4760
+Installed-Size: 4773
 Maintainer: xyToki <xytoki@outlook.com>
 Architecture: amd64
 Source: openresty
 Version: 1.21.4.1-1~focal1
-Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.3), openresty-openssl111 (>= 1.1.1n), openresty-pcre (>= 8.45), openresty-zlib
+Depends: libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.3), libxml2 (>= 2.7.4), openresty-openssl111 (>= 1.1.1n), openresty-pcre (>= 8.45), openresty-zlib
 Filename: pool/main/o/openresty/openresty-xy_1.21.4.1-1~focal1_amd64.deb
-Size: 1371256
-MD5sum: b04bebde53c45f8e8544f9bac5d2df85
-SHA1: d9df57915e80927b96f85c9994f03d41c8f07fcf
-SHA256: 479a0a5fc9e5d7c13266bdde7a0e63ff9bbf29047833083afef40b3453a555e1
-SHA512: b1282cd82c0bb8c20ef6b03e8620967a2ee7bf73963cd0e7e531d4ea3572f84acf3208a447f09026ec2a15a08e59f48844cfbe0788a002af3215446f7d626deb
+Size: 1377508
+MD5sum: f7f71842bba04098eeb72d30f391829e
+SHA1: 3ff0c3610fadf10813b10105f7f3f25b6b86c94c
+SHA256: 10a650f9f9441a39591f79186577934d5ec8056eb340ef1345adef901a52801f
+SHA512: b7aeff3bb79cd1b570b3cc77b4995a7ab871566e5a170416eb96dedf379825728ada6df275c385a26bdbbec2b1c8796d41bf73416eeb1e3a1ae7ac801c8d85c9
 Description: core server of OpenResty for production use
  This package contains the core server for OpenResty. Built for production
  uses.
