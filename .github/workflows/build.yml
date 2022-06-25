@@ -44,8 +44,8 @@ jobs:
       
       - name: add deb to repo
         run: |
-          aptly repo add apt-toki deb-appnode/*.deb
-          aptly repo add apt-toki deb-openresty/*.deb
+          aptly repo add -force-replace apt-toki deb-appnode/*.deb
+          aptly repo add -force-replace apt-toki deb-openresty/*.deb
           aptly repo show -with-packages apt-toki
           
       - name: Checkout dist
