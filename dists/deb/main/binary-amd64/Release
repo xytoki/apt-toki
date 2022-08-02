@@ -1,5 +1,6 @@
 Origin: . deb
 Label: . deb
 Archive: deb
+Suite: deb
 Architecture: amd64
 Component: main
