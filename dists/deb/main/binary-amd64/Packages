@@ -1644,3 +1644,37 @@ Description: core server of OpenResty for production use
  a single box.
 Homepage: https://openresty.org/
 
+Package: openresty-xy-openssl
+Priority: optional
+Section: httpd
+Installed-Size: 5021
+Maintainer: xiaoyu <xiaoyu@xyget.cn>
+Architecture: amd64
+Source: openresty
+Version: 1.21.4.1-1~jammy1
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.3), libxml2 (>= 2.7.4), openresty-openssl111 (>= 1.1.1n), openresty-pcre (>= 8.45), openresty-zlib
+Filename: pool/main/o/openresty/openresty-xy-openssl_1.21.4.1-1~jammy1_amd64.deb
+Size: 1599810
+MD5sum: b887aacf87428ceb445b4847d2da9bfc
+SHA1: fec46cded6c9c579b074b272e9883cf7ea3582d2
+SHA256: 83bc806c50532b2decc3ead14230b1f4ee4dbb20e4c0015dc31357911a652107
+SHA512: 0c801807cce99b50a9b1df8bc07b3127bc472e39f6ac99619e697b228bd3a8d71ae893b4b3db9c4e715a8feb1879cde81feffbf0299934446b3cc7c0db8f95fc
+Description: core server of OpenResty for production use
+ This package contains the core server for OpenResty. Built for production
+ uses.
+ .
+ OpenResty is a full-fledged web platform by integrating the standard Nginx
+ core, LuaJIT, many carefully written Lua libraries, lots of high quality
+ 3rd-party Nginx modules, and most of their external dependencies. It is
+ designed to help developers easily build scalable web applications, web
+ services, and dynamic web gateways.
+ .
+ By taking advantage of various well-designed Nginx modules (most of which
+ are developed by the OpenResty team themselves), OpenResty effectively
+ turns the nginx server into a powerful web app server, in which the web
+ developers can use the Lua programming language to script various existing
+ nginx C modules and Lua modules and construct extremely high-performance
+ web applications that are capable to handle 10K ~ 1000K+ connections in
+ a single box.
+Homepage: https://openresty.org/
+
