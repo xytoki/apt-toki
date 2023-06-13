@@ -1613,40 +1613,6 @@ Description: appnode repository configuration
 Package: openresty-xy
 Priority: optional
 Section: httpd
-Installed-Size: 10445
-Maintainer: xiaoyu <xiaoyu@xyget.cn>
-Architecture: amd64
-Source: openresty
-Version: 1.21.4.1-2~jammy1
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 4.2), libxml2 (>= 2.7.4), openresty-pcre (>= 8.45), openresty-zlib, openresty-openssl111 (>= 1.1.1n)
-Filename: pool/main/o/openresty/openresty-xy_1.21.4.1-2~jammy1_amd64.deb
-Size: 3299880
-MD5sum: 3ec638e4e3f8a373249c7619a7147c9b
-SHA1: 85a872e2fa37bf5eb8420857658f2096a49af977
-SHA256: 4ca25447b8927b4327f02f9e4a6697eca7b60e0cd9ce382c0de1a172ba5f064b
-SHA512: 32acecbe3e856d50be13ca4d5fe023e10a29b8b9526ab9c20cd2ff2d1a12acc1d3380103cc9f3447f52424485735e43bd347014da97d57d0f8118f06a844fbda
-Description: core server of OpenResty for production use
- This package contains the core server for OpenResty. Built for production
- uses.
- .
- OpenResty is a full-fledged web platform by integrating the standard Nginx
- core, LuaJIT, many carefully written Lua libraries, lots of high quality
- 3rd-party Nginx modules, and most of their external dependencies. It is
- designed to help developers easily build scalable web applications, web
- services, and dynamic web gateways.
- .
- By taking advantage of various well-designed Nginx modules (most of which
- are developed by the OpenResty team themselves), OpenResty effectively
- turns the nginx server into a powerful web app server, in which the web
- developers can use the Lua programming language to script various existing
- nginx C modules and Lua modules and construct extremely high-performance
- web applications that are capable to handle 10K ~ 1000K+ connections in
- a single box.
-Homepage: https://openresty.org/
-
-Package: openresty-xy
-Priority: optional
-Section: httpd
 Installed-Size: 10297
 Maintainer: xiaoyu <xiaoyu@xyget.cn>
 Architecture: amd64
@@ -1693,40 +1659,6 @@ MD5sum: 6965fa08cb6d4f5f3292a8418bb0eee5
 SHA1: cd09f572ee3849e93b995c5ec523ca0b7313b91e
 SHA256: 18d36d58effd7d6c6dfaf54cc449b4968de98ea0bab3dd626d400503b07a2a1f
 SHA512: 8a3f146098750db9416decd297e438f1032b78279c0a9da099428663cebe4a664f31142a4c07d8ab6eebd0c138c7af40bdd24fae17ad445af92b6d51e968991e
-Description: core server of OpenResty for production use
- This package contains the core server for OpenResty. Built for production
- uses.
- .
- OpenResty is a full-fledged web platform by integrating the standard Nginx
- core, LuaJIT, many carefully written Lua libraries, lots of high quality
- 3rd-party Nginx modules, and most of their external dependencies. It is
- designed to help developers easily build scalable web applications, web
- services, and dynamic web gateways.
- .
- By taking advantage of various well-designed Nginx modules (most of which
- are developed by the OpenResty team themselves), OpenResty effectively
- turns the nginx server into a powerful web app server, in which the web
- developers can use the Lua programming language to script various existing
- nginx C modules and Lua modules and construct extremely high-performance
- web applications that are capable to handle 10K ~ 1000K+ connections in
- a single box.
-Homepage: https://openresty.org/
-
-Package: openresty-xy-openssl
-Priority: optional
-Section: httpd
-Installed-Size: 5005
-Maintainer: xiaoyu <xiaoyu@xyget.cn>
-Architecture: amd64
-Source: openresty
-Version: 1.21.4.1-2~jammy1
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.3), libxml2 (>= 2.7.4), openresty-openssl111 (>= 1.1.1n), openresty-pcre (>= 8.45), openresty-zlib
-Filename: pool/main/o/openresty/openresty-xy-openssl_1.21.4.1-2~jammy1_amd64.deb
-Size: 1593636
-MD5sum: e6fa9c181664e03231ffb35139f37362
-SHA1: 2b79f6e6ca8c75907c1e4b7c68d192f5ff6d331b
-SHA256: 60e7b1ad476462c4243960bd51d3c3856dfcd9c47b617d11a342f05f38029539
-SHA512: b83b0aa69ca1031bff205e86dbd170bae6b736839ac84515bd8028500ceab367e1da024090099b191cfa6feb0c1a57b338d85682b8d3eb3d3f6ccc798d729f2e
 Description: core server of OpenResty for production use
  This package contains the core server for OpenResty. Built for production
  uses.
